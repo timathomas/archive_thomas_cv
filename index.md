@@ -7,7 +7,7 @@
 > University of Washington  
 > [t77@uw.edu](t77@uw.edu)  
 > 206.290.6512  
-> [Download PDF](thomas_cv.pdf)
+> [Download PDF](index.pdf)
 
 ------
 
