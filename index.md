@@ -17,7 +17,6 @@ University of Washington
 : *Moore-Sloan & Washington Research Data Science Postdoctoral Fellow, Sociology & The eScience Institute*
 __2017 - present__
 
-
 ------
 
 ### Education {#Education}
