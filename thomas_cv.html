@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Tim Thomas | Urban Sociologist</title>
+<style type="text/css">
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body.pdf {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-size: 48px;
+  text-transform: none;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h3 {
+  float: left;
+  width: 20%;
+  font-style: normal;
+}
+body.pdf h3+p {
+  float: left;
+  width: 80%;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+body.pdf ul dl {
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size: 122%;
+  font-weight: normal;
+  margin: 0 0 .75em;
+}
+body.pdf ul dl dd {
+  padding: 0 4em 0 0;
+}
+body.pdf ol {
+  float: left;
+  width: 80%;
+  margin: .7em 0 0;
+}
+body.pdf ol li {
+  width: 33%;
+  margin: 0;
+}
+body.pdf ol li:nth-child(3n) {
+  width: 34%;
+}
+body.pdf ol li:nth-child(1),
+body.pdf ol li:nth-child(2),
+body.pdf ol li:nth-child(3) {
+  border-top: none;
+}
+body.pdf dl {
+  margin: .7em 0 0;
+  page-break-inside: avoid !important;
+  display: block;
+}
+body.pdf dl strong {
+  float: right;
+  margin-top: -2em;
+}
+body.pdf dl em {
+  font-size: 130%;
+  font-style: normal;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: 'Helvetica Neue Light', 'Helvetica', Arial, serif;
+}
+h1:before {
+  font-weight: bold;
+  color: orange;
+  margin: -1em 0 0 -0.5em;
+  position: relative;
+  top: -0.4em;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a {
+  color: #990003;
+}
+a[href$='.pdf'] {
+  text-decoration: none;
+}
+a[href$='.edu'] {
+  text-decoration: none;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+h3 {
+  margin: 0;
+  padding: 0 0 .5em;
+  font-size: 150%;
+  font-weight: bold;
+}
+h3+p {
+  margin: 0 0 16px;
+  padding: 0;
+  display: block;
+  font-size: 110%;
+  line-height: 24px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+  flex-basis: 33%;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dt {
+  font-size: 110%;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+}
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 80%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  float: left;
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+ol li:nth-child(1) {
+  border-top: none;
+}
+dl {
+  float: left;
+  display: block;
+  width: 75%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+}
+dl dd {
+  margin: 0 0 1.5em;
+  padding: 0;
+  font-size: 80%;
+  line-height: 1.4em;
+}
+dl strong {
+  display: block;
+}
+dl em {
+  display: block;
+  font-size: 110%;
+  margin: .15em 0 .5em;
+  font-style: bold;
+}
+dl dd li {
+  width: 100%;
+  margin: 0 1em 1em;
+  list-style-type: square;
+}
+dl dt {
+  display: block;
+  clear: both;
+}
+dl dt {
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+h3 + dl dt:first-child {
+  border: 0;
+  padding-top: 0;
+}
+dl dd p:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+ul li dt {
+  border: 0;
+  padding-top: 0;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  body {
+    padding: 2em 0;
+  }
+  blockquote {
+    top: 10px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 57em) {
+  .container {
+    width: 912px;
+  }
+  .resume {
+    position: relative;
+    padding: 40px 50px;
+  }
+  blockquote {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 48px;
+    letter-spacing: -1px;
+  }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  h3 {
+    float: left;
+    width: 20%;
+  }
+  h3+p {
+    float: left;
+    width: 80%;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+  ul dl dd {
+    padding: 0 4em 0 0;
+  }
+  ol {
+    float: left;
+    width: 80%;
+    margin: .6em 0 0;
+  }
+  ol li {
+    width: 33%;
+    margin: 0;
+  }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
+    border-top: none;
+  }
+  dl strong {
+    float: right;
+    margin-top: -2em;
+  }
+  dl em {
+    font-size: 130%;
+    font-style: normal;
+  }
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <!-- ./bin/md2resume html --template swissen cv/source/thomas_cv.md .; ./bin/md2resume pdf --template swissen cv/source/thomas_cv.md . -->
+
+<h1>Tim Thomas</h1>
+
+<h2>Urban Sociologist</h2>
+
+<h2>Demographer</h2>
+
+<h2>Data Scientist</h2>
+
+<blockquote>
+  <p>University of Washington<br />
+  <a href="t77@uw.edu">t77@uw.edu</a><br />
+  206.290.6512<br />
+  <a href="thomas_cv.pdf">Download PDF</a></p>
+</blockquote>
+
+<hr />
+
+<h3 id="Appointments">Appointments</h3>
+
+<dl>
+<dt>University of Washington</dt>
+<dd><em>Moore-Sloan &amp; Washington Research Data Science Postdoctoral Fellow, Sociology &amp; The eScience Institute</em>
+<strong>2017 - present</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Education">Education</h3>
+
+<dl>
+<dt>University of Washington</dt>
+<dd><em>Ph.D., Sociology</em>
+<strong>2017</strong></dd>
+
+<dd><em>Dissertation: “Forced Out: Race, Market, &amp; Neighborhood Dynamics of Evictions”<br />
+Committee: Kyle Crowder (Chair), Stewart Tolnay, Nathalie Williams, &amp; Thaisa Way (GSR)<br />
+Exam Topics: Residential Segregation, Neighborhood Mobility, Gentrification, Neighborhood Crime, Social Disorganization, &amp; Spatial Methods<br />
+Minor: Demographic methods &amp; spatial statistics</em></dd>
+
+<dd><em>M.A., Sociology</em>
+<strong>2013</strong></dd>
+
+<dd><em>Thesis: “Revisiting Crime Hot-Spot Interventions: Displacement, Longevity, and Neighborhood Impacts.”</em></dd>
+
+<dd><em>B.A., Sociology, with honors</em>
+<strong>2009</strong></dd>
+
+<dd><em>Honor’s Thesis: “Seattle’s Martin Luther King, Jr. Way: A 40 Year Reflection on a Dream.”</em></dd>
+
+<dt>Seattle Central Community College</dt>
+<dd><em>Associate of Arts</em>
+<strong>2007</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Research">Research &amp; Teaching Interests</h3>
+
+<p>Urban Sociology, Race &amp; Ethnicity, Residential Segregation, Housing &amp; Poverty, Residential Mobility, Demography, Social Organization, Data Science, Statistics,<br />
+Spatial Analysis</p>
+
+<hr />
+
+<h3 id="Publications">Publications</h3>
+
+<dl>
+<dt>Lanfear, Charles C., Lindsey R. Beach, and Timothy A. Thomas. 2018. ”Formal Social Control in Changing Neighborhoods: Racial Implications of Neighborhood Context on Reactive Policing” City &amp; Community, 17:4. doi: 10.1111/cico.12346</dt>
+<dd>
+<dt>Williams, Nathalie E., Timothy A. Thomas, Matthew Dunbar, Nathan Eagle, and Adrian Dobra. 2015. “Measures of Human Mobility Using Mobile Phone Records Enhanced with GIS Data.” PLoS ONE, 33. doi: 10.1371/journal.pone.0133630</dt></dd>
+
+<dd></dd>
+</dl>
+
+<hr />
+
+<h3 id="Review">Under Review</h3>
+
+<dl>
+<dt>Thomas, Timothy A. &#8220;Displaced by Race: Evictions, Segregation, &amp; the Housing Market.&#8221;</dt>
+<dd>
+<dt>Thomas, Timothy A., Ott Toomet, Ian Kennedy, and Alex Ramiller. “The State of Evictions: Enumerating Evictions &amp; Measuring Racial Disparities through Machine-Learning &amp; Text Recognition of Washington State Court Records: 2004 to 2017.”</dt></dd>
+
+<dd></dd>
+</dl>
+
+<hr />
+
+<h3 id="Progress">In Progress</h3>
+
+<dl>
+<dt>Thomas, Timothy A. “Towards a Theory of Eviction Ecology: Local and Extra-Local Neighborhood Effects”</dt>
+<dd>
+<dt>Thomas, Timothy A. and Michael Babb. “Neighborhood Change &amp; Displacement: Re-imagining the Concentric Zone Theory to Measure Migration from Gentrification.”</dt></dd>
+
+<dd>
+<dt>Thomas, Timothy A. and Michael Esposito. “Health &amp; Racial Neighborhood Segregation: A Multi-City Comparison.”</dt></dd>
+
+<dd>
+<dt>Thomas, Timothy A. and Ryan Gabriel. “Segregation within Integration: Exploring Micro- Level Segregation in Seattle’s Integrated Tracts Using Spatial &amp; Qualitative Analysis.”</dt></dd>
+
+<dd>
+<dt>Thomas, Timothy A. “Revisiting Crime Hot-Spot Interventions: Displacement, Longevity, &amp; Neighborhood Impacts.”</dt></dd>
+
+<dd></dd>
+</dl>
+
+<hr />
+
+<h3 id="Grants">Fellowships &amp; Grants</h3>
+
+<dl>
+<dt>Moore/Sloan Data Science and Washington Research Foundation Innovation in Data Science Postdoctoral Fellowship. University of Washington</dt>
+<dd><em>($220,000)</em>
+<strong>2017-2020</strong></dd>
+
+<dt>Raikes Foundation Young Adult Homelessness Study Grant. Seattle, WA</dt>
+<dd><em>($5,000)</em>
+<strong>2019</strong></dd>
+
+<dt>Enterprise Community Partners Washington State Evictions Research Seed Grant. Seattle, WA</dt>
+<dd><em>($4,000)</em>
+<strong>2018-2019</strong></dd>
+
+<dt>West Coast Poverty Center Research Seed Grant, University of Washington</dt>
+<dd><em>($10,000)</em>
+<strong>2015</strong></dd>
+
+<dt>National Science Foundation Graduate Research Fellowship. University of Washington</dt>
+<dd><em>($105,000 + tuition)</em>
+<strong>2012-2015</strong></dd>
+
+<dt>Advanced Spatial Analysis Workshop Grant, Pennsylvania State University</dt>
+<dd><em>($600)</em>
+<strong>2011</strong></dd>
+
+<dt>Mary Gates Research Scholarship, University of Washington</dt>
+<dd><em>($3,000)</em>
+<strong>2009</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Awards">Awards</h3>
+
+<dl>
+<dt>Center for Studies in Demography and Ecology Best Poster Award, “Neighborhood Change and Racial Dynamics of Complainants, Suspects, &amp; Arrestees.” University of Washington. (with Lindsey R. Beach and Charles Lanfear).</dt>
+<dd>
+<strong>2016</strong></dd>
+
+<dt>Graduated with Honors, Sociology, University of Washington.</dt>
+<dd>
+<strong>2009</strong></dd>
+</dl>
+
+<hr />
+
+<h3>Invited Presenations</h3>
+
+<!-- Spokane Talk -->
+
+<dl>
+<dt>&#8220;The State of Evictions During the Affordability Crisis: Measuring Prevalence and Disparate Impact through Machine Learning on Court Records.&#8221; Presentation, University of Pennsylvania &amp; University of Oxford Symposium on Affordable Housing in the Advanced Economies.</dt>
+<dd><em>Oxford, UK</em>
+<strong>2019</strong></dd>
+
+<dt>&#8220;The Washington State Evictions Project: Using Demographic Estimation to Find Racial Disparities.&#8221; Presentation, Annual Housing Justice Network Conference.</dt>
+<dd><em>New Orleans, LA</em>
+<strong>2019</strong></dd>
+
+<dt>&#8220;The State of Evictions: Racial and Sex Disparities in Evictions.&#8221; Expert testimony, Seattle City Hall.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2019</strong></dd>
+
+<dt>&#8220;The State of Evictions: Racial and Sex Disparities in Evictions.&#8221; Presentation, Washington Low Income Housing Alliance.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2019</strong></dd>
+
+<dt>“Housing, Segregation, &amp; Mobility in Washington State: The Impact of Policies, Economics, &amp; Evictions” Expert Testimony, Washington State Senate Housing Stability &amp; Affordability Committee.</dt>
+<dd><em>Olympia, WA</em>
+<strong>2019</strong></dd>
+
+<dt>“Segregation &amp; Mobility in Washington State: The Impact of Policies, Economics, &amp; Evictions.” Expert testimony, Washington State House of Representatives Community Development, Housing, &amp; Tribal Affairs Committee.</dt>
+<dd><em>Olympia, WA</em>
+<strong>2018</strong></dd>
+
+<dt>“Forced Evictions, Neighborhood Change, &amp; Race: From Jim Crow to Gentrification.” Presentation, The City of Seattle’s Office of Arts &amp; Culture.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2018</strong></dd>
+
+<dt>“Eviction Ecology.” Presentation, Department of Sociology, University of Texas.</dt>
+<dd><em>Austin, TX</em>
+<strong>2018</strong></dd>
+
+<dt>“Race, Place, &amp; Evictions.” Presentation, School of Social Transformations, Arizona State University.</dt>
+<dd><em>Tempe, AZ</em>
+<strong>2017</strong></dd>
+
+<dt>“Racial and Gender Estimations of Unlawful Detainers.” Keynote Speaker, Northwest Civil Rights Legal Aid Conference.</dt>
+<dd><em>Portland, OR</em>
+<strong>2016</strong></dd>
+
+<dt>“Are Diverse Neighborhoods Truly Integrated? Micro-segregation in Seattle.” Presentation, Open Seattle: Technology for Civic Engagement, Socrata.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2016</strong></dd>
+
+<dt>“Segregation within Integration: Exploring Micro-level Segregation in Seattle’s Integrated Tracts.” Presentation, The Center for Studies in Demography and Ecology Seminar, University of Washington.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2015</strong></dd>
+
+<dt>“Segregation within Integration: Exploring Micro-level Segregation in Seattle’s Integrated Tracts.” Presentation, Department of Sociology, Seattle Pacific University.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2014</strong></dd>
+
+<dt>“Hidden Segregation: Disaggregating Tract-level Stratification Using Spatial and Qualitative Methods.” Presentation, Department of Sociology, University of Washington.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2014</strong></dd>
+
+<dt>“Measuring Mobility Using Cell Phone Call Data Records: Developing Big Data for Demographic Science.” Presentation, The Center for Studies in Demography and Ecology, University of Washington.</dt>
+<dd><em>Seattle WA</em>
+<strong>2014</strong></dd>
+
+<dt>“Does Crime Move?: Quantifying Crime Displacement After a Hot-Spot Intervention.” Presentation, The Center for Studies in Demography and Ecology, University of Washington.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2013</strong></dd>
+
+<dt>“Does Crime Move? Quantifying Crime Movement After Hot-Spot Operations.” Presentation, Department of Sociology, University of Washington.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2012</strong></dd>
+
+<dt>“Mapping Inequality.” Keynote Speaker, Annual Urban Poverty Forum, Town Hall.</dt>
+<dd><em>Seattle WA</em>
+<strong>2010</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Conferences">Conference Presentations</h3>
+
+<dl>
+<dt>“Eviction Ecology: Local and Extra-local Neighborhood Effects.” Presentation, American Sociological Association Annual Meeting.</dt>
+<dd><em>Philadelphia, PA</em>
+<strong>2018</strong></dd>
+
+<dt>“Neighborhood and Demographic Disparities in Evictions: Using Spatial Analysis and Bayes Estimation to Define a Previously Unknown Population in King County, WA.” Presentation, Population Association of America.</dt>
+<dd><em>Denver, CO</em>
+<strong>2018</strong></dd>
+
+<dt>“Health &amp; Racial Neighborhood Segregation: A Multi-City Comparison.” Poster with Michael Esposito, Population Association of America Annual Meeting.</dt>
+<dd><em>Denver, CO</em>
+<strong>2018</strong></dd>
+
+<dt>“Forced Out: Race, Market, and Neighborhood Dynamics in Evictions.” Presentation, American Sociological Association Annual Meeting.</dt>
+<dd><em>Montreal, QC</em>
+<strong>2017</strong></dd>
+
+<dt>“Neighborhood Change and Racial Dynamics of Complainants, Suspects, &amp; Arrestees.” Presentation with Lindsey R. Beach and Charles Lanfear, American Sociological Association Annual Meeting.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2016</strong></dd>
+
+<dt>“Neighborhood Change and Racial Dynamics of Complainants, Suspects, &amp; Arrestees.” Poster with Lindsey R. Beach and Charles Lanfear, Annual Meeting of the Population Association of America.</dt>
+<dd><em>Washington D.C.</em>
+<strong>2016</strong></dd>
+
+<dt>“Segregation within Integration: Exploring Micro-level Segregation in Seattle’s Integrated Tracts.” Presentation with Ryan Gabriel, Population Association of America Annual Meeting.</dt>
+<dd><em>San Diego, CA</em>
+<strong>2015</strong></dd>
+
+<dt>“Measuring Mobility Using Cell Phone Call Data Records: Developing Big Data for Demographic Science.” Presentation with Nathalie Williams, Matt Dunbar, Nathan Eagle, &amp; Adrian Dobra, Population Association of America Annual Meeting.</dt>
+<dd><em>Boston, MA</em>
+<strong>2014</strong></dd>
+
+<dt>“Spatial Methods for Quantifying Crime Displacement: Measuring Crime Movement After a Hot-Spot Policing Intervention.” Poster, Population Association of America Annual Meeting.</dt>
+<dd><em>Boston, MA</em>
+<strong>2014</strong></dd>
+
+<dt>“Spatially Defined Measures of Mobility.” Poster with Nathalie Williams, eScience Big Data Colloquium, University of Washington.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2013</strong></dd>
+
+<dt>“Seattle’s MLK Way: A Spatial Comparison of MLK Residents From 1980- 2000.” Presentation, The Pacific Sociological Association.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2011</strong></dd>
+
+<dt>“Seattle’s Martin Luther King, Jr. Way: A 40 Year Reflection on a Dream.” Presentation, Sociology Undergraduate Research Symposium, University of Washington.</dt>
+<dd><em>Seattle, WA</em>
+<strong>2009</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Research">Research &amp; Consultation</h3>
+
+<dl>
+<dt>Principal Researcher</dt>
+<dd><em>“The State of Evictions: Measuring Prevalence &amp; Racial Disparities.” The eScience Institute &amp; Dept. of Sociology, University of Washington,<br />
+Seattle, WA</em>
+<strong>2018-present</strong></dd>
+
+<dt>Principal Researcher</dt>
+<dd><em>“Housing Insecurity Longitudinal Database: Linking Public Housing &amp; Homelessness Data.” University of Washington, eScience Institute,<br />
+Seattle, WA.</em>
+<strong>2017-present</strong></dd>
+
+<dt>Principal Researcher</dt>
+<dd><em>“Quantifying Displacement: Neighborhood Change &amp; Migration in the Puget Sound Region.“ University of Washington, Cascadia Urban Analytic Collective,<br />
+Seattle, WA.</em>
+<strong>2017-2018</strong></dd>
+
+<dt>Researcher</dt>
+<dd><em>“Hate Crimes and Micro-segregation.” The City of Seattle Auditor’s Office,<br />
+Seattle, WA.</em>
+<strong>2017-2018</strong></dd>
+
+<dt>Principal Researcher &amp; Expert Witness</dt>
+<dd><em>“Racial and Gender Disparities in Evictions.” ACLU &amp; The Northwest Justice Project,<br />
+Washington State.</em>
+<strong>2016-2017</strong></dd>
+
+<dt>Program Coordinator</dt>
+<dd><em>The UW Homelessness Initiative, University of Washington, Urban@UW,<br />
+Seattle, WA.</em>
+<strong>2016-2017</strong></dd>
+
+<dt>Consultant</dt>
+<dd><em>“Spatial Patterns of Homeless Encampments.” The City of Seattle Mayor‘s Office,<br />
+Seattle, WA.</em>
+<strong>2016-2017</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>“Migration Patterns of Seattle and King County’s Public Housing Recipients.” Kyle Crowder, University of Washington, Department of Sociology,<br />
+Seattle, WA.</em>
+<strong>2015-2016</strong></dd>
+
+<dt>Research Assistant &amp; Consultant</dt>
+<dd><em>Center for Studies in Demography and Ecology, Matthew Dunbar, University of Washington, Center for Studies in Demography and Ecology,<br />
+Seattle, WA.</em>
+<strong>2015</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>“Spatial Analysis of Seattle Alcohol and Marijuana Citations.” Katherine Beckett, University of Washington, Department of Sociology,<br />
+Seattle, WA.</em>
+<strong>2015</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>“Mapping Legal Financial Obligations and Stratification.” Alexes Harris, University of Washington, Department of Sociology,<br />
+Seattle, WA.</em>
+<strong>2015</strong></dd>
+
+<dt>Researcher</dt>
+<dd><em>“Koreans and Korean Americans in the Pacific Northwest Project.” Korean American Historical Society and the Wing Luke Museum,<br />
+Seattle WA.</em>
+<strong>2012</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>“Spatial Crime Data Collection at the Center for Studies in Demography and Ecology.” Matthew Dunbar, University of Washington, Center for Studies in Demography and Ecology,<br />
+Seattle, WA.</em>
+<strong>2011</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>Southern Migration Linkage Project, Stewart Tolnay, University of Washington, Department of Sociology,<br />
+Seattle, WA.</em>
+<strong>2011</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>“Royal Navy Mutiny Research.” Steve Pfaff, University of Washington, Department of Sociology,<br />
+Seattle, WA.</em>
+<strong>2010</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>Spatial Demographic Data Collection for Seattle, Center for Studies in Demography and Ecology, Matt Dunbar,
+University of Washington, Center for Studies in Demography and Ecology,<br />
+Seattle, WA.</em>
+<strong>2010</strong></dd>
+
+<dt>Research Assistant</dt>
+<dd><em>The Lynching Database, Stewart Tolnay, University of Washington, Department of Sociology,<br />
+Seattle, WA.</em>
+<strong>2008-2011</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Teaching">Teaching</h3>
+
+<dl>
+<dt>Instructor</dt>
+<dd><em>Undergraduate Research Practicum, “Mapping mobility patterns of Seattle and King County Public Housing Residents 2004-2016.” University of Washington.</em>
+<strong>2016</strong></dd>
+
+<dt>Instructor</dt>
+<dd><em>Spatial Epidemiology Workshop, University of Nairobi, Kenya.</em>
+<strong>2015</strong></dd>
+
+<dt>Instructor</dt>
+<dd><em>Introduction to GIS, University of Washington (online course).</em>
+<strong>2015</strong></dd>
+
+<dt>Co-Instructor</dt>
+<dd><em>Urban Sociology, University of Washington, Seattle.</em>
+<strong>2014</strong></dd>
+
+<dt>Teaching Assistant</dt>
+<dd><em>Criminology, University of Washington, Seattle.</em>
+<strong>2012</strong></dd>
+
+<dt>Teaching Assistant</dt>
+<dd><em>Sociological Methods, University of Washington, Seattle.</em>
+<strong>2012</strong></dd>
+
+<dt>Teaching Assistant</dt>
+<dd><em>Sociological Methods, University of Washington, Seattle.</em>
+<strong>2011</strong></dd>
+
+<dt>Co-Instructor</dt>
+<dd><em>Visual Sociology, University of Washington, Seattle.</em>
+<strong>2011</strong></dd>
+
+<dt>Co-Instructor</dt>
+<dd><em>Visual Sociology, University of Washington, Seattle.</em>
+<strong>2010</strong></dd>
+</dl>
+
+<hr />
+
+<h3>Public Scholarship</h3>
+
+<dl>
+<dt>“Is Seattle’s past paving its future?”</dt>
+<dd><em><a href="http://depts.washington.edu/foster/seattle-growth-podcast-3-6-seattles-past-paving-future/">Seattle Growth Podcast</a>.</em>
+<strong>2017</strong></dd>
+
+<dt>“Black life is draining out of Seattle, Census shows.”</dt>
+<dd><em><a href="http://kuow.org/post/black-life-draining-out-seattle-census-shows">NPR KUOW</a>.</em>
+<strong>2017</strong></dd>
+
+<dt>“Seattle’s ’Diverse’ Neighborhoods Are Surprisingly Segregated.”</dt>
+<dd><em><a href="http://kuow.org/post/seattles-diverse-neighborhoods-are-surprisingly-segregated">NPR KUOW</a>.</em>
+<strong>2016</strong></dd>
+
+<dt>“Seattle’s Neighborhoods Have Experienced ’Segregation Within Integration’.”</dt>
+<dd><em><a href="http://seattle.curbed.com/2016/4/14/11434824">Curbed</a>.</em>
+<strong>2016</strong></dd>
+
+<dt>“When “diverse” neighborhoods are more segregated than they appear.”</dt>
+<dd><em><a href="https://kinder.rice.edu/Blog/holeywell061115/">Kinder Institute for Urban Research</a>.</em>
+<strong>2015</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Membership">Membership &amp; Service</h3>
+
+<dl>
+<dt>Population Association of America</dt>
+<dd>
+<strong>2012-present</strong></dd>
+
+<dt>American Sociological Association</dt>
+<dd>
+<strong>2013-present</strong></dd>
+
+<dt>Research Liaison and Organizer</dt>
+<dd><em>City of Seattle &amp; University of Washington Data/Research Collaboration.</em>
+<strong>2012-2015</strong></dd>
+
+<dt>Graduate Student Administration Representative</dt>
+<dd><em>Department of Sociology, University of Washington</em>
+<strong>2013-2015</strong></dd>
+
+<dt>Coordinator</dt>
+<dd><em>University of Washington and the City of Seattle Research Colloquium, City Hall, Seattle, WA.</em>
+<strong>2013</strong></dd>
+
+<dt>Coordinator</dt>
+<dd><em>University of Washington and the City of Seattle Research Colloquium, University of Washington.</em>
+<strong>2012</strong></dd>
+
+<dt>Graduate Student Representative</dt>
+<dd><em>Student Technology Fund Committee, University of Washington.</em>
+<strong>2011-2012</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="Technical">Technical</h3>
+
+<ol>
+<li>R</li>
+<li>Python</li>
+<li>Unix (Linux, Debian, Ubuntu)</li>
+<li>Amazon Web Services</li>
+<li>git</li>
+<li>html</li>
+<li>QGIS</li>
+<li>ArcGIS</li>
+</ol>
+
+<hr />
+
+<h3 id="References">References</h3>
+
+<dl>
+<dt>Kyle Crowder</dt>
+<dd><em>Professor (Dissertation Chair), University of Washington, Department of Sociology, <a href="kylecrow@uw.edu">kylecrow@uw.edu</a>, (206) 616-1203</em></dd>
+
+<dt>Tyler McCormick</dt>
+<dd><em>Associate Professor (Postdoc Mentor), University of Washington, Department of Sociology &amp; Statistics, <a href="tylermc@uw.edu">tylermc@uw.edu</a>‭, (206) 221-6981‬</em></dd>
+
+<dt>Thaisa Way</dt>
+<dd><em>Professor, University of Washington, Landscape Architecture, <a href="tway@uw.edu">tway@uw.edu</a>, ‭(206) 685-2523</em></dd>
+
+<dt>Stewart Tolnay</dt>
+<dd><em>Professor Emeritus (Dissertation Committee Member), University of Washington, Department of Sociology, <a href="tolnay@uw.edu">tolnay@uw.edu</a>, (206) 685-2284</em></dd>
+
+<dt>Bill Howe</dt>
+<dd><em>Assistant Professor, Univerisity of Washington, iSchool, <a href="billhowe@uw.edu">billhowe@uw.edu</a></em></dd>
+
+<dt>Mark Ellis</dt>
+<dd><em>Professor (Postdoc Mentor), University of Washington, Department of Geography, <a href="ellism@uw.edu">ellism@uw.edu</a></em></dd>
+
+<dt>Nathalie Williams</dt>
+<dd><em>Associate Professor (Dissertation Committee Member &amp; Co-Author), University of Washington, Department of Sociology, <a href="natw@uw.edu">natw@uw.edu</a>, (206) 616-6270</em></dd>
+</dl>
+
+<!-- ------
+
+### Footer {#footer}
+
+Tim Thomas -- [t77@uw.edu](t77@uw.edu) -- 206.390.6512
+
+------
+ -->
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -18,7 +18,7 @@ h1, h2, h3, h4, ul dl dt {
 }
 
 h1:before{
-    content: "+";
+    /*content: "+";*/
     font-weight: bold;
     color: orange;
     margin: -1em 0 0 -0.5em;
@@ -29,8 +29,8 @@ h1:before{
 .container {
     margin: 0 auto;
     padding: 0;
-    background: whiteSmoke;
-    border: solid #666;
+    /*background: white;*/
+    /*border: solid #666;*/
     border-width: 8px 0 2px 0;
     text-align: left;
 }
@@ -45,11 +45,15 @@ a {
 }
 
 a[href$='.pdf'] {
-    display: inline-block;
-    background: #666;
-    color: white;
-    padding: 6px 12px;
-    margin-bottom: 6px;
+    /*display: inline-block;*/
+    /*background: #666;*/
+    /*color: white;*/
+    /*padding: 6px 12px;*/
+    /*margin-bottom: 6px;*/
+    text-decoration: none;
+}
+
+a[href$='.edu'] {
     text-decoration: none;
 }
 
@@ -81,6 +85,7 @@ h1 {
     letter-spacing: -1px;
     font-weight: bold;
 }
+
 h2 {
     margin: 0;
     padding: 0;
@@ -100,7 +105,7 @@ h3+p {
     margin: 0 0 16px;
     padding: 0;
     display: block;
-    font-size: 104%;
+    font-size: 110%;
     line-height: 24px;
 }
 
@@ -123,13 +128,13 @@ ul dl {
     padding: 0;
     width: 100%;
     dt {
-        font-size: 100%;
+        font-size: 110%;
     }
-    dd {
+    dd {/*Skills*/
         margin: 0 0 1em;
         padding: 0 2em 0 0;
         font-size: .8em;
-        line-height: 1.5em;
+        /*line-height: 1.5em;*/
     }
 }
 
@@ -164,7 +169,7 @@ dl {
     dt {
         margin: 0;
         padding: 0;
-        font-size: 140%;
+        font-size: 110%;
     }
     dd {
         margin: 0 0 1.5em;
