@@ -276,7 +276,7 @@ __2017-present__
 Consultant
 : *Academic Consultant for Washington State Senate and House Tenant Rights and Eviction bills. 2019 Legislative Session,  
 Olympia, WA.*
-__2017-present__
+__2019__
 
 Principal Researcher
 : *“Quantifying Displacement: Neighborhood Change & Migration in the Puget Sound Region.“ University of Washington, Cascadia Urban Analytic Collective,  
