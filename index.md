@@ -70,20 +70,23 @@ Thomas, Timothy A., Ott Toomet, Ian Kennedy, and Alex Ramiller. “The State of 
 
 ### In Progress {#Progress}
 
-Thomas, Timothy A. “Towards a Theory of Eviction Ecology: Local and Extra-Local Neighborhood Effects”
-:   
+Thomas, Timothy A. “Towards a Theory of Eviction Ecology: Local and Extra-Local Neighborhood Effects.”
+:  
 
-Thomas, Timothy A. and Michael Babb. “Neighborhood Change & Displacement: Re-imagining the Concentric Zone Theory to Measure Migration from Gentrification.”
-:   
+Thomas, Timothy A. "Evictions and Homelessness”
+:  
 
 Thomas, Timothy A. and Michael Esposito. “Health & Racial Neighborhood Segregation: A Multi-City Comparison.”
-:   
+:  
+
+Thomas, Timothy A. and Michael Babb. “Neighborhood Change & Displacement: Re-imagining the Concentric Zone Theory to Measure Migration from Gentrification.”
+:  
 
 Thomas, Timothy A. and Ryan Gabriel. “Segregation within Integration: Exploring Micro- Level Segregation in Seattle’s Integrated Tracts Using Spatial & Qualitative Analysis.”
-:   
+:  
 
 Thomas, Timothy A. “Revisiting Crime Hot-Spot Interventions: Displacement, Longevity, & Neighborhood Impacts.”
-:   
+:  
 
 ----
 
@@ -131,9 +134,11 @@ __2009__
 
 -----
 
-### Invited Presenations
+### Invited Presentations
 
-<!-- Spokane Talk -->
+"The Prevalence and Demographic Disparities of Evictions in Washington State." Presentation, The Annual Affordable Housing Conference.
+: *Spokane, WA*
+__2019__
 
 "The State of Evictions During the Affordability Crisis: Measuring Prevalence and Disparate Impact through Machine Learning on Court Records." Presentation, University of Pennsylvania & University of Oxford Symposium on Affordable Housing in the Advanced Economies.
 : *Oxford, UK*
@@ -397,6 +402,10 @@ __2010__
 -----
 
 ### Public Scholarship
+
+“The State of Evictions: Results from the University of Washington Evictions Project.”
+: *[evictions.study](https://evictions.study/index.html).*
+__2019__
 
 “Is Seattle’s past paving its future?”
 : *[Seattle Growth Podcast](http://depts.washington.edu/foster/seattle-growth-podcast-3-6-seattles-past-paving-future/).*
