@@ -53,7 +53,7 @@
         "leafo/lessphp": "v0.4.0",
         "michelf/php-markdown": "1.4.0",
         "michelf/php-smartypants": "^1.8",
-        "mustache/mustache": "2.5.1",
+        "mustache/mustache": "2.14.1",
         "sunra/php-simple-html-dom-parser": "v1.5.0",
         "symfony/config": "v2.3.4",
         "symfony/console": "v2.3.4",
